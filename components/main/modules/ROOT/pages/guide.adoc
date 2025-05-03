@@ -1,0 +1,12 @@
+= Code.Gate? ガイドマップ
+
+== はじめに
+
+このドキュメントは、Code.Gate? の活動内容やルールをまとめたものです。
+
+このドキュメントを読んで、Code.Gate? の活動に参加してみましょう！
+
+== 目次
+
+* xref:tutorial:ROOT:index.adoc[環境構築]
+* xref:quest:index.adoc[New Joiner Quest]

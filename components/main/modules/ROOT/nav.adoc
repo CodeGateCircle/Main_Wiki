@@ -1,2 +1,7 @@
 * xref:index.adoc[はじめに]
-* xref:test.adoc[別のページ]
+** xref:about.adoc[Code.Gate? とは]
+* xref:guide.adoc[Code.Gate? ガイドマップ]
+
+* Quest
+** xref:quest:index.adoc[]
+** xref:quest:final.adoc[最終課題]

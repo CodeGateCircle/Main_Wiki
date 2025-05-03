@@ -1,0 +1,83 @@
+= New Join Quests
+:reftext: New Joiner Quest
+
+:toc: macro
+:toclevels: 3
+:toc-title: Table of Contents
+
+== 1. 入会申請をしよう！
+
+=== 1.1. 申請方法
+
+申請フォームに必要事項を記入し、送信してください。
+
+https://forms.gle/22gpWKrpnb3c4AqN7
+
+=== 1.2. 申請後の流れ
+
+* 申請後、Discordへの招待が届きますので、参加してください。
+* Discordに参加後、役職を付与しますので、#名前をヘボン式ローマ字に変更してください#。
+
+    例：Taro Yamada(B3)
+
+* 役職が付与されたら、以下のチャンネルで自己紹介をしてください。
+** #introduce
+
+== 2. Progate に登録しよう
+
+Progateに登録して、プログラミングを学びましょう。
+
+=== 2.1. Progate とは
+
+Progateは、プログラミングを学ぶためのオンライン学習サービスです。基礎から応用まで、様々なコースが用意されています。
+
+=== 2.2. Progate の登録方法
+
+Progateの公式サイトにアクセスし、アカウントを作成してください。
+
+https://prog-8.com/
+
+=== 2.3. 登録メールアドレスを送ろう
+
+Progateに登録したメールアドレスを、以下のフォームに送信してください。有料ライセンスを付与します。
+
+== 3. Progate のコースを受講しよう
+
+いよいよ、Progateのコースを受講します。以下のコースを受講してください。
+
+=== 必須コース
+
+HTML&CSS:: 上級編まで
+Git:: 全て
+SQL:: 全て
+JavaScript(ES6):: 最低限、Vまで
+Node.js:: 最低限、Vまで
+
+=== 選択コース
+
+ここのコースと同じ言語で基本的には最終課題を仕上げます。
+
+* フロントエンド（見た目）
+.. React
+.. Python
+.. PHP
+.. Ruby
+*** Ruby
+*** Ruby on Rails
+.. Java
+* バックエンド（システム）
+.. Go
+.. Python
+.. Ruby
+*** Ruby
+*** Ruby on Rails
+
+== 4. 最終課題を仕上げよう
+
+=== 4.1. 最終課題とは
+
+最終課題は、Progateのコースで学んだことを活かして、Todoアプリを作成することです。以下の要件を満たしてください。
+
+xref:final.adoc[Todoアプリの要件]を参照してください。
+
+また、この課題を進めるにあたって環境構築が必要です。xref:tutorial::index.adoc[環境構築]を参照してください。

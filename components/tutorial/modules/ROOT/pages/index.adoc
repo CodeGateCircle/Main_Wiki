@@ -1,3 +1,90 @@
-= 2nd
+= 環境構築
 
-test
+== Windows
+
+=== 1. VSCodeをインストールしよう
+
+VSCodeは、Microsoftが開発した無料のエディタです。プログラミングをする上で、必須のツールです。
+VSCodeの公式サイトにアクセスし、インストーラーをダウンロードしてください。
+
+https://code.visualstudio.com/
+
+=== 2. Gitをインストールしよう
+
+Gitは、ソースコードのバージョン管理ツールです。Gitを使うことで、ソースコードの変更履歴を管理することができます。
+Gitの公式サイトにアクセスし、インストーラーをダウンロードしてください。
+
+https://git-scm.com/
+
+=== 3. WSL2をインストールしよう
+
+WSL2は、Windows上でLinuxを動かすためのツールです。WSL2を使うことで、LinuxのコマンドラインをWindows上で使うことができます。
+WSL2のインストール方法は、以下のリンクを参考にしてください。
+
+https://docs.microsoft.com/ja-jp/windows/wsl/install
+
+=== 4. Docker Desktopをインストールしよう
+
+Dockerは、アプリケーションをコンテナ化するためのツールです。Dockerを使うことで、アプリケーションの環境構築が簡単になります。
+Dockerの公式サイトにアクセスし、インストーラーをダウンロードしてください。
+
+https://www.docker.com/products/docker-desktop
+
+=== 5. 実際に動かしてみよう
+
+以下のコマンドを実行して、Dockerが正しくインストールされているか確認してください。
+
+[source,bash]
+----
+docker --version
+docker run hello-world
+----
+
+== Mac
+
+=== 1. homebrewをインストールしよう
+
+homebrewは、Mac上でソフトウェアを管理するためのツールです。homebrewを使うことで、ソフトウェアのインストールやアップデートが簡単になります。
+homebrewの公式サイトにアクセスし、インストーラーをダウンロードしてください。
+
+https://brew.sh/index_ja
+
+=== 2. VSCodeをインストールしよう
+
+VSCodeは、Microsoftが開発した無料のエディタです。プログラミングをする上で、必須のツールです。
+homebrewを使って、VSCodeをインストールします。
+
+[source,bash]
+----
+brew install --cask visual-studio-code
+----
+
+=== 3. Gitをインストールしよう
+
+Gitは、ソースコードのバージョン管理ツールです。Gitを使うことで、ソースコードの変更履歴を管理することができます。
+homebrewを使って、Gitをインストールします。
+
+[source,bash]
+----
+brew install git
+----
+
+=== 4. Docker Desktopをインストールしよう
+
+Dockerは、アプリケーションをコンテナ化するためのツールです。Dockerを使うことで、アプリケーションの環境構築が簡単になります。
+homebrewを使って、Dockerをインストールします。
+
+[source,bash]
+----
+brew install --cask docker
+----
+
+=== 5. 実際に動かしてみよう
+
+以下のコマンドを実行して、Dockerが正しくインストールされているか確認してください。
+
+[source,bash]
+----
+docker --version
+docker run hello-world
+----

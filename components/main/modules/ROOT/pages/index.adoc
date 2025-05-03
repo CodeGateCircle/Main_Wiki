@@ -1,3 +1,8 @@
-= ようこそ
+= Welcome to "Code.Gate?"
 
-これは私の最初のコンポーネントのインデックスページです。
+====
+Code.Gate? のWikiへようこそ。
+====
+
+* xref:about.adoc[Code.Gate? とは]
+* xref:guide.adoc[Code.Gate? ガイドマップ]
