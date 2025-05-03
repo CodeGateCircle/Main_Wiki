@@ -1,6 +1,6 @@
 # my-component/docs/antora.yml
-name: my-component
-title: マイコンポーネント
+name: main
+title: main
 version: '1.0'
 start_page: ROOT:index.adoc
 nav:

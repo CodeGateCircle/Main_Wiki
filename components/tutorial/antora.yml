@@ -1,0 +1,7 @@
+# 2nd-component/docs/antora.yml
+name: tutorial
+title: tutorial
+version: '1.0'
+start_page: ROOT:index.adoc
+nav:
+- modules/ROOT/nav.adoc

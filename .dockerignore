@@ -1,0 +1,3 @@
+.ignore/docs-site
+.ignore/ui-codegate/*
+!.ignore/ui-codegate\build\ui-bundle.zip

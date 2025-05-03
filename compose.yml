@@ -1,0 +1,13 @@
+services:
+  antora:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # command: antora ./path.yml --stacktrace --clean
+    user: "${UID}"
+    volumes:
+      - .:/antora:Z
+      - .ignore/ui-codegate/build:/antora/ui-codegate/build:Z
+    stdin_open: true
+    tty: true
+    restart: 'no'

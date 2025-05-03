@@ -1,0 +1,2 @@
+* xref:index.adoc[はじめに]
+* xref:test.adoc[別のページ]
