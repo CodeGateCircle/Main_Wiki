@@ -1,0 +1,18 @@
+# antora-playbook.yml
+site:
+  title: 新しい Antora サイト
+  # url: https://example.com # 必要に応じてサイトの公開 URL を設定
+  start_page: my-component::index.adoc # 開始ページを適切なコンポーネントとページに設定
+content:
+  sources:
+  - url: . # カレントディレクトリ (またはリポジトリの URL) を指定
+    branches: HEAD # または特定のブランチ名
+    start_path: docs # コンポーネントのドキュメントが含まれるディレクトリ
+  # - url: https://github.com/user/repo.git # 他のリポジトリを追加する場合
+  #   branches: main
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable # デフォルト UI を使用
+    snapshot: true
+# output:
+#   dir: ./public # ビルド成果物の出力先ディレクトリ (デフォルトは ./build/site)
