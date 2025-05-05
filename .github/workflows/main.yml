@@ -1,7 +1,6 @@
 name: Publish to GitHub Pages
+
 on:
-  push:
-    branches: [antora]
   workflow_dispatch:
 concurrency:
   group: github-pages
@@ -19,6 +18,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4.2.2
+      with:
+        ref: antora
     - name: Configure Pages
       uses: actions/configure-pages@v5
       with:
