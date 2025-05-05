@@ -29,6 +29,8 @@ jobs:
         node-version: '22'
     - name: Install Antora
       run: npm i antora
+    - name: check directory
+      run: ls
     - name: Generate Site
       run: npx antora path.yml
     - name: Upload Artifacts
