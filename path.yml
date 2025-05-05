@@ -1,7 +1,7 @@
 # antora-playbook.yml
 site:
   title: Code.Gate? Wiki
-  # url: https://example.com # 必要に応じてサイトの公開 URL を設定
+  url: https://codegatecircle.github.io/Main_Wiki # 必要に応じてサイトの公開 URL を設定
   start_page: main::index.adoc # 開始ページを適切なコンポーネントとページに設定
 content:
   sources:
