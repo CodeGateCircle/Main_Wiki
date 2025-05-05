@@ -5,9 +5,9 @@ site:
   start_page: main::index.adoc # 開始ページを適切なコンポーネントとページに設定
 content:
   sources:
-  - url: /antora # カレントディレクトリ (またはリポジトリの URL) を指定
+  - url: /home/runner/work/Main_Wiki/Main_Wiki # カレントディレクトリ (またはリポジトリの URL) を指定
     start_path: components/main # コンポーネントのドキュメントが含まれるディレクトリ
-  - url: /antora
+  - url: /home/runner/work/Main_Wiki/Main_Wiki
     start_path: components/tutorial # 2nd コンポーネントのドキュメントが含まれるディレクトリ
 ui:
   bundle:

@@ -6,8 +6,8 @@ services:
     # command: antora ./path.yml --stacktrace --clean
     user: "${UID}"
     volumes:
-      - .:/antora:Z
-      - .ignore/ui-codegate/build:/antora/ui-codegate/build:Z
+      - .:/home/runner/work/Main_Wiki/Main_Wiki:Z
+      - .ignore/ui-codegate/build:/home/runner/work/Main_Wiki/Main_Wiki/ui-codegate/build:Z
     stdin_open: true
     tty: true
     restart: 'no'
