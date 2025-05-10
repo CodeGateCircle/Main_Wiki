@@ -1,0 +1,47 @@
+= 学生割引のあるサービス
+:reftext: Student Discount
+
+== 有能サービス
+
+=== GitHub
+
+https://education.github.com/pack
+
+TIP: 学生期間中はGitHub Proのライセンスが無料で利用できます。
+
+IMPORTANT: ac.jpのメールアドレスを登録する必要があります。
+
+GitHub Student Developer Packはあらゆるサービスを無料、もしくは割引で利用できます。
+例えば、DigitalOceanでは100ドル分のクレジットもらえます。自分にあったサービスを探してみてください。
+
+.個人的におすすめなサービス
+|===
+|サービス名|特典|説明
+|GitHub Copilot|無料|コードの生成を支援するAIツール
+|DigitalOcean|100ドル分のクレジット|クラウドサービス
+|JetBrains|無料|IDEの提供
+|===
+
+=== Cursor
+
+https://www.cursor.com/
+
+TIP: 学生期間中はCursor Proのライセンスが無料で利用できます。
+
+=== Notion
+
+https://www.notion.so/
+
+TIP: 学生期間中はNotionのライセンスが無料で利用できます。
+
+IMPORTANT: ac.jpのメールアドレスでユーザ作成する必要があります。
+
+== その他
+
+* Sketch
+* Figma
+* Miro
+
+== ゴリゴリの開発をする人
+
+URLをsecretにしてアクセス、、、
