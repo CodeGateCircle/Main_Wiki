@@ -23,9 +23,9 @@ https://forms.gle/22gpWKrpnb3c4AqN7
 * 役職が付与されたら、以下のチャンネルで自己紹介をしてください。
 ** #introduce
 
-== 2. Progate に登録しよう
+== 2. Progate, Progate Path に登録しよう
 
-Progateに登録して、プログラミングを学びましょう。
+Progate, Progate Pathに登録して、プログラミングを学びましょう。
 
 === 2.1. Progate とは
 
@@ -33,13 +33,21 @@ Progateは、プログラミングを学ぶためのオンライン学習サー�
 
 === 2.2. Progate の登録方法
 
-Progateの公式サイトにアクセスし、アカウントを作成してください。
+Progateの公式サイトにアクセスし、#学校のメールアドレスで# アカウントを作成してください。
 
 https://prog-8.com/
 
-=== 2.3. 登録メールアドレスを送ろう
+=== 2.3. Progate Path の登録方法
 
-Progateに登録したメールアドレスを、以下のフォームに送信してください。有料ライセンスを付与します。
+Progate Pathの公式サイトにアクセスし、#学校のメールアドレスで# アカウントを作成してください。
+
+https://app.path.progate.com/dashboard
+
+=== 2.4. 登録メールアドレスを送ろう
+
+Progate, Progate Pathに登録したメールアドレスを、以下のフォームに送信してください。有料ライセンスを付与します。
+
+https://docs.google.com/forms/d/e/1FAIpQLSc88Dm0caBGdV6mOW8a6r5TH1xWEuOGaZmZ84YHSIjYLtLPag/viewform?usp=dialog
 
 == 3. Progate のコースを受講しよう
 
