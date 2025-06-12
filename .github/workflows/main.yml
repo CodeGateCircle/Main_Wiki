@@ -43,6 +43,9 @@ jobs:
       uses: actions/setup-node@v4.4.0
       with:
         node-version: '22'
+    - name: Directory check
+      run: |
+        ls -la
     - name: Build UI
       run: |
         cd _ui
