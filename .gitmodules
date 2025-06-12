@@ -1,4 +1,4 @@
-[submodule "ui"]
+[submodule "_ui"]
 	path = _ui
 	url = https://github.com/CodeGateCircle/ui-codegate.git
 	branch = main
