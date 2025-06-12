@@ -1,10 +1,21 @@
 name: Publish to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - antora
-  workflow_dispatch:
+    paths:
+      - '**'
+      - '.gitmodules'
+  pull_request:
+    types: [closed]
+    branches:
+      - antora
+    paths:
+      - '**'
+      - '.gitmodules'
+
 concurrency:
   group: github-pages
   cancel-in-progress: false
@@ -22,7 +33,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4.2.2
       with:
-        ref: antora
+        ref: ${{ github.ref }}
+        submodules: recursive
     - name: Configure Pages
       uses: actions/configure-pages@v5
       with:
@@ -31,6 +43,13 @@ jobs:
       uses: actions/setup-node@v4.4.0
       with:
         node-version: '22'
+    - name: Build UI
+      run: |
+        cd _ui
+        npm ci
+        npm i -g gulp
+        gulp bundle
+        cd ..
     - name: Install Antora
       run: npm i antora
     - name: check directory
