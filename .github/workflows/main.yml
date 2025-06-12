@@ -43,6 +43,9 @@ jobs:
       uses: actions/setup-node@v4.4.0
       with:
         node-version: '22'
+    - name: Update submodules
+      id: update
+      run: git submodule update --remote --recursive 
     - name: Directory check
       run: |
         ls -la
