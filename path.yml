@@ -11,7 +11,7 @@ content:
     start_path: components/tutorial # 2nd コンポーネントのドキュメントが含まれるディレクトリ
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable # デフォルト UI を使用
+    url: ./ui/build/ui-bundle.zip
     snapshot: true
 # output:
 #   dir: ./public # ビルド成果物の出力先ディレクトリ (デフォルトは ./build/site)
