@@ -33,7 +33,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4.2.2
       with:
-        ref: ${{ github.ref }}
+        ref: antora
         submodules: recursive
     - name: Configure Pages
       uses: actions/configure-pages@v5
