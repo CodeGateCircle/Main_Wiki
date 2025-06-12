@@ -45,7 +45,7 @@ jobs:
         node-version: '22'
     - name: Update submodules
       id: update
-      run: git submodule update --remote --recursive 
+      run: git submodule update --init --remote --recursive 
     - name: Directory check
       run: |
         ls -la
