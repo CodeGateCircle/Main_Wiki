@@ -12,6 +12,7 @@ content:
 ui:
   bundle:
     url: ./_ui/build/ui-bundle.zip
+    # url: ./ui-bundle.zip
     snapshot: true
 # output:
 #   dir: ./public # ビルド成果物の出力先ディレクトリ (デフォルトは ./build/site)
