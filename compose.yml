@@ -8,7 +8,6 @@ services:
     user: "${UID}"
     volumes:
       - .:/home/runner/work/Main_Wiki/Main_Wiki:Z
-      - .ignore/ui-codegate/build:/home/runner/work/Main_Wiki/Main_Wiki/ui-codegate/build:Z
     stdin_open: true
     tty: true
     restart: 'no'
