@@ -1,7 +1,7 @@
 # my-component/docs/antora.yml
 name: main
 title: main
-version: '1.0'
+version: '1.1'
 start_page: ROOT:index.adoc
 nav:
 - modules/ROOT/nav.adoc

@@ -55,37 +55,27 @@ https://docs.google.com/forms/d/e/1FAIpQLSc88Dm0caBGdV6mOW8a6r5TH1xWEuOGaZmZ84YH
 
 === 必須コース
 
-HTML&CSS:: 上級編まで
-Git:: 全て
-SQL:: 全て
-JavaScript(ES6):: 最低限、Vまで
-Node.js:: 最低限、Vまで
+. Git
+. HTML&CSS
+. JavaScript(ES6)
+. Node.js
+. SQL
 
-=== 選択コース
+== 4. 課題に取り組んでみよう
 
-ここのコースと同じ言語で基本的には最終課題を仕上げます。
+=== 4.1. 課題とは
 
-* フロントエンド（見た目）
-.. React
-.. Python
-.. PHP
-.. Ruby
-*** Ruby
-*** Ruby on Rails
-.. Java
-* バックエンド（システム）
-.. Go
-.. Python
-.. Ruby
-*** Ruby
-*** Ruby on Rails
+Progateのコースで学んだことを活かして、さまざまな課題に取り組んでみましょう。
 
-== 4. 最終課題を仕上げよう
+=== 4.2. 課題のルール
 
-=== 4.1. 最終課題とは
+* 自分のGitHubリポジトリに課題を作成してください。
+* Gitについては、必ずmainブランチに初めのコミットを行い、その後のコミットは**別ブランチ**で行ってください。
+* Pull Requestには必ず、レビューをMP以上の方に依頼してください。
+* レビュワーからOKが出たら、マージしてください。
 
-最終課題は、Progateのコースで学んだことを活かして、Todoアプリを作成することです。以下の要件を満たしてください。
+=== 4.3. 課題について
 
-xref:final.adoc[Todoアプリの要件]を参照してください。
+具体的な課題は、xref:assignments.adoc[課題一覧]を参考にしてください。
 
-また、この課題を進めるにあたって環境構築が必要です。xref:tutorial::index.adoc[環境構築]を参照してください。
+

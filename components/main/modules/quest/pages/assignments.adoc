@@ -1,0 +1,12 @@
+= Assignments
+:reftext: Assignments
+
+:toc: macro
+:toclevels: 2
+:toc-title: Table of Contents
+
+== 課題一覧
+
+* xref:assignments/no1.adoc[必須課題：GitHub Pagesを使って、自己紹介ページを作ろう]
+
+> その他の課題は、随時追加していきます。
