@@ -10,7 +10,7 @@ content:
     branches: 'v*'
   - url: /home/runner/work/Main_Wiki/Main_Wiki
     start_path: components/tutorial # 2nd コンポーネントのドキュメントが含まれるディレクトリ
-    branches: 'v*'
+    branches: 'antora'
 ui:
   bundle:
     url: ./_ui/build/ui-bundle.zip
